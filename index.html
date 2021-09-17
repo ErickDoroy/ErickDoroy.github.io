@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Paul Erick Doroy - Portfolio</title>
+    <link rel="stylesheet" href="/portfolio/css/style.css">
+   
+</head>
+
+<body>
+     <div class="w01-navbar"> 
+        <button class="w01-btn" id="myBtn1"><a href="#" class="w03-navbar">Paul Erick Doroy</a></button>
+        <nav class="w02-navbar inline">
+                <button id="myBtn"><a href="#about" class="w03-navbar" >About</a></button>
+                <button id="myBtn" class="w02-btn"><a href="#contact" class="w03-navbar">Contact</a></button>
+        </nav>
+    </div>
+    <div class="w01-modal" id="myModal">
+            <div id="w01-modal-content">
+                <H1>ABOUT</H1>
+                <img class="w01-im" src="/portfolio/img/1.jpg" alt="">
+                <p class="w01-p">I am Paul Erick Doroy. A student of CENTER OF INDUSTRIAL TECHNOLOGY AND ENTERPRISE. They have good school for poeple have a little money, I also like to play games.</p>
+                <!-- <H1>CONTACT</H1> -->
+                <!-- <a href="https://www.facebook.com/profile.php?id=100011696297824"><img class="w02-im" src="/portfolio/img/1logo.jpg" alt="" ></a> -->
+                <!-- <a href="https://myaccount.google.com/?utm_source=OGB&tab=kk&utm_medium=act"><img class="w02-im" src="/portfolio/img/2Logo.jpg" alt=""></a> -->
+            </div>
+    </div>
+    <div class="w01-modal" id="myModal">
+        <div id="w01-modal-content">
+            <H1>CONTACT</H1>
+            <p>You can Conctact Me: <br>09286283572 <br>paulerick.doroy@sun-astrisk.com</p>
+            <a href="https://www.facebook.com/profile.php?id=100011696297824"><img class="w02-im" src="/portfolio/img/1logo.jpg" alt="" ></a>
+            <a href="https://myaccount.google.com/?utm_source=OGB&tab=kk&utm_medium=act"><img class="w02-im" src="/portfolio/img/2Logo.jpg" alt=""></a>
+        </div>
+    </div>
+    <script>
+        
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("w01-btn")[0];
+
+        // When the user clicks on the button, open the modal
+        btn.onclick = function() {
+        modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+        modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+        }
+    </script>
+
+</body>
+</html>

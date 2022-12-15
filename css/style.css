@@ -4,11 +4,13 @@ body{
     background-image: url("https://images.unsplash.com/photo-1454372182658-c712e4c5a1db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
    
 }
+
 button{
     padding: 20px;
     border-radius: 10px;
     border-style: hidden;
 }
+
 .w01-navbar{
     border-radius: 5px;
     background-color: rgb(245, 240, 240);
@@ -18,14 +20,12 @@ button{
     justify-content: space-between;
     z-index: 500;
 }
+
 .w1-navbar:link{
     text-decoration: none;
     list-style-type: none;
 }
-.w02-navbar{
-    display: flex;
-    justify-content: space-between;
-}
+
 .w03-navbar:link{
     text-decoration: none;
     padding: 20px 20px 20px 20px;
@@ -33,11 +33,13 @@ button{
     text-align: center;
     border-radius: 3px;
 }
+
 button:hover{
     color: #1a75ff;
     box-shadow: 2px 2px 5px #3385ff;
     text-shadow: 2px 2px 5px #003d99;
 }
+
 .w01-modal{
     display: none; 
     position: fixed; 
@@ -50,6 +52,7 @@ button:hover{
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4); 
 }
+
 #w01-modal-content{
     background-color: #dfc9addc;
     margin: 10% auto;
@@ -59,27 +62,32 @@ button:hover{
     border-radius: 10px;
     text-align: center;
 }
+
 .w01{
     height: 700px;
     width: 600px;
     
 }
+
 .w01-im{
     border-radius: 50%;
     height: 300px;
     width: 300px;
     align-items: center;
 }
+
 .w02-im{
     height: 40px;
     margin-top: 60px;
 }
+
 .w01-p{
     text-align: center;
     font-size: 20px;
     color: #000;
 }
-H1{
+
+h1{
     margin: 40px;
 }
 

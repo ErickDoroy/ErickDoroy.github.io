@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    left: 0;
+    top: 0;
+    color: royalblue;
+    font-size: 24px;
+    margin: 0px;
+    background-size: cover;
+    background-image: url('../img/background2.jpg');
+}
+
+#opponent-choice {
+    width: 240px;
+    height: 240px;
+    margin-top: 10px;
+}
+
+#your-choice {
+    width: 240px;
+    height: 240px;
+    margin-top: 10px; 
+}
+
+#choices {
+    width: 240px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#choices img {
+    width: 80px;
+    height: 80px;
+}
+
+.backBtn {
+    padding: 10px 40px;
+    margin: 37px 1605px 0 0;
+    border: none;
+    background: #4c00e16e;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.backBtn:hover {
+    box-shadow: 2px 2px 5px #3385ff;
+    text-shadow: 2px 2px 5px #003d99;
+}
